@@ -1,16 +1,16 @@
-.selected{
+.selected {
     background-color: #cfd8dc;
     color: white;
 }
 
-.heroes{
+.heroes {
     margin: 0 0 2em 0;
     list-style-type: none;
     padding: 0;
     width: 15em;
 }
 
-.heroes li{
+.heroes li {
     cursor: pointer;
     position: relative;
     left: 0;
@@ -21,17 +21,17 @@
     border-radius: 4px;
 }
 
-.heroes li.selected:hover{
+.heroes li.selected:hover {
     color: white;
 }
 
-.heroes li:hover{
+.heroes li:hover {
     color: #607DBB;
     background-color: #EEEEEE;
     left: 0.1em;
 }
 
-.heroes .text{
+.heroes .text {
     position: relative;
     top: -3px;
 }

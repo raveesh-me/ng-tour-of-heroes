@@ -2,8 +2,8 @@
 <h2>HEROES</h2>
 <ul class="heroes">
     <li *ngFor="let hero of heroes"
-    (click)="onSelect(hero)"
-    [class.selected]="hero === selected">
+        (click)="onSelect(hero)"
+        [class.selected]="hero === selected">
         <!--each hero goes here-->
         <span class="badge">{{hero.id}}</span> {{hero.name}}
     </li>
