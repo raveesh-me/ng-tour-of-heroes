@@ -19,8 +19,8 @@ class AppComponent extends OnInit {
 
   Hero selected;
   List<Hero> heroes;
-  _getHeroes(){
-    heroes = _heroService.getAllHeroes;
+  _getHeroes() async{
+    heroes = await _heroService.getAllHeroes;
   }
 
   onSelect(Hero hero) => selected = hero;
